@@ -28,6 +28,7 @@ this.lastFed = lastFed;
   background(bedRoomImage, 550, 500);
 }
 display(){
+    background("turquoise");
     var x=80, y=100;
     imageMode(CENTER);
     image(this.image, 720, 220, 50,50);
